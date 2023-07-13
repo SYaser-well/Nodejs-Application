@@ -1,2 +1,1 @@
-# Nodejs-Application
-A sample node js application 
+# docker_nodejs_demo

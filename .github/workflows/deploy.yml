@@ -38,7 +38,7 @@ env:
   AWS_REGION: us-east-2                                           # set this to your preferred AWS region, e.g. us-west-1
   ECR_REPOSITORY: nodejs_demo_using_docker                       # set this to your Amazon ECR repository name
   ECS_SERVICE: DEMOSERVICE                       # set this to your Amazon ECS service name
-  ECS_CLUSTER: TestCluster                                           # set this to your Amazon ECS cluster name
+  ECS_CLUSTER: Cluster_Demo                                           # set this to your Amazon ECS cluster name
   ECS_TASK_DEFINITION: ECR-Demo-revision2.json         # set this to the path to your Amazon ECS task definition
                                                                        # file, e.g. .aws/task-definition.json
   CONTAINER_NAME: "Docker-Ubuntu-Image"                               # set this to the name of the container in the
